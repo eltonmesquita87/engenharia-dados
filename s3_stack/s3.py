@@ -10,6 +10,6 @@ class S3Stack(core.Stack):
         super().__init__(scope, id, **kwargs)
         s3.Bucket(
             self,
-            'meu-bucket-belisco-cdk',
-            bucket_name='meu-bucket-belisco-com-aws-cdk'
+            'meu-bucket-elton-cdk',
+            bucket_name='meu-bucket-elton-com-aws-cdk'
         )
